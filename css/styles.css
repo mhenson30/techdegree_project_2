@@ -1,0 +1,153 @@
+p{
+    font-family: 'Khula', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+img{
+    
+    width: 100%;
+}
+
+.outerwrap{
+    background-color: ;
+	width: 100%;
+	display: block;
+	clear: both;
+
+}
+
+.innerwrap{
+	background-color: #ffffff;
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+
+}
+
+nav ul li{
+ list-style-type: none;
+    font-weight: 700;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, li{
+  font-family: 'Khula', sans-serif; 
+text-align: center;
+    
+}
+h3{
+    font-weight: 700;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+span{
+    font-weight: 600;
+}
+
+footer p{
+    display: inline-block;
+    font-weight: 700;
+    font-size: .9em;
+}
+
+footer a{
+    text-transform: uppercase;
+    color: black;
+    float: right;
+}
+
+footer span.large{
+    display:none;
+}
+/*media queries*/
+
+
+
+@media (min-width:768px){
+    
+    .clearfix::after{
+        content:"";
+        display: table;
+        clear:both;
+        
+    }
+  footer span.mobile{
+    display:none;
+}
+    footer span.large{
+    display: inline-block;
+        float:right;
+    }
+    
+    
+    span.large a{
+        text-decoration: none;
+    }
+    
+   li{
+    display: inline-block;
+    font-weight: 700;
+    padding: 15px;
+    }
+    
+    nav{
+        text-align: center;
+    }
+    
+    header img{
+        float: right;
+        width: 33%;
+    }
+    header p{
+        margin: 10px;
+    }
+    .one,.two,.three{
+        width: 50%;
+        float:left;
+    }
+    .four, .five, .six{
+        width: 50%;
+        float: right;
+    }
+    h2{
+        text-align: center;
+    }
+    
+    
+    
+}
+
+@media (min-width: 1024px){
+    .clearfix::after{
+        content:"";
+        display: table;
+        clear:both;
+        
+    }
+   footer span.mobile{
+    display:none;
+}
+    footer span.large{
+    display: inline-block;
+}
+    .one, .two{
+        float:right;
+        width: 33%;
+    }
+    .three, .four{
+        width: 33%;
+    }
+    .five, .six{
+        width: 33%;
+        float: left;
+    }
+}
