@@ -2,14 +2,27 @@ p{
     font-family: 'Khula', sans-serif;
     font-weight: 300;
     text-align: center;
+    padding: 10px;
 }
 img{
     
     width: 100%;
 }
+.profile img{
+    width: 90%;
+    
+}
+.profile{
+    
+    text-align: center;
+}
+
+#contact h2{
+    padding-top: 10px;
+}
 
 .outerwrap{
-    background-color: ;
+    background-color:#F8F8F8;
 	width: 100%;
 	display: block;
 	clear: both;
@@ -23,10 +36,16 @@ img{
 	display: block;
 
 }
+nav{
+    width: 94%;
+}
 
 nav ul li{
  list-style-type: none;
     font-weight: 700;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    background-color: #FFFFFF; 
 }
 
 nav a{
@@ -99,9 +118,6 @@ footer span.large{
     padding: 15px;
     }
     
-    nav{
-        text-align: center;
-    }
     
     header img{
         float: right;
@@ -111,12 +127,14 @@ footer span.large{
         margin: 10px;
     }
     .one,.two,.three{
-        width: 50%;
+        width: 49%;
         float:left;
+        margin: 0 5px;
     }
     .four, .five, .six{
-        width: 50%;
+        width: 49%;
         float: right;
+        margin: 0 5px;
     }
     h2{
         text-align: center;
@@ -127,12 +145,14 @@ footer span.large{
 }
 
 @media (min-width: 1024px){
+    
     .clearfix::after{
         content:"";
         display: table;
         clear:both;
         
     }
+    
    footer span.mobile{
     display:none;
 }
@@ -141,13 +161,16 @@ footer span.large{
 }
     .one, .two{
         float:right;
-        width: 33%;
+        width: 32%;
+        margin: 0 5px;
     }
     .three, .four{
-        width: 33%;
+        width: 32%;
+        margin: 0 5px;
     }
     .five, .six{
-        width: 33%;
+        width: 32%;
         float: left;
+        margin: 0 5px;
     }
 }
