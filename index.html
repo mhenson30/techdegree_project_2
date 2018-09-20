@@ -2,6 +2,7 @@
 <html>
     
     <head>
+         <title>Project 2</title>
          <meta charset="utf-8">
          <meta name="viewport" content="width=device-width, initial-scale=1">
          <link rel="stylesheet" href="css/styles.css">
@@ -14,16 +15,16 @@
            <h1 class="clearfix">Student Name</h1>
            <nav class="main">
            <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Portfolio</a></li>
-               <li><a href="#">Contact</a></li>
+               <li><a href="#profile">Home</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
                
            </ul>
            </nav>
-           <section class="profile">
-           <img src="images/responsive-layout-profile.png"/>
+           <div id="profile">
+           <img src="images/responsive-layout-profile.png" alt="profile-image"/>
            <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am exited to put all my skills to use!</p>
-           </section>
+           </div>
        </header>
         </div>
         
@@ -31,32 +32,32 @@
        <section id="portfolio">
           <h2>Portfolio</h2>
           <div class="one">
-          <img src="images/portfolio-1.png"/>
+          <img src="images/portfolio-1.png" alt="marketing-image"/>
           <h3>Marketing Page</h3>
           <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
            </div>
            <div class="two">
-          <img src="images/portfolio-2.png"/>
+          <img src="images/portfolio-2.png" alt="search-image"/>
           <h3>Search Page</h3>
           <p>This project searches through a specific database to find information that the user is trying to look up.</p>
            </div>
            <div class="three">
-          <img src="images/portfolio-3.png"/>
+          <img src="images/portfolio-3.png" alt="travel-image"/>
           <h3>Travel App</h3>
           <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
            </div>
            <div class="four">
-          <img src="images/portfolio-4.png"/>
+          <img src="images/portfolio-4.png" alt="map-image"/>
           <h3>Map of Favorite Spots</h3>
           <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it-yourself walking tour.</p>
            </div>
            <div class="five">
-          <img src="images/portfolio-5.png"/>
+          <img src="images/portfolio-5.png" alt="gallery-image"/>
           <h3>Photo Gallery</h3>
           <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
            </div>
            <div class="six">
-          <img src="images/portfolio-6.png"/>
+          <img src="images/portfolio-6.png" alt="calc-image"/>
           <h3>Calculator</h3>
           <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
            </div> 
@@ -71,13 +72,16 @@
           </section>
        <footer>
            <p>Student name</p>
-            <span class="mobile"><a href="#"><p>Back to Top</p></a></span>
-            <span class="large"><ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Portfolio</a></li>
-               <li><a href="#">Contact</a></li>
+            <div class="mobile"><a href="#profile">Back to Top</a></div>
+            <div class="large">
+              <ul>
                
-                </ul></span>
+               <li><a href="#profile">Home</a></li>
+               <li><a href="#portfolio">Portfolio</a></li>
+               <li><a href="#contact">Contact</a></li>
+               
+                </ul>
+            </div>
        </footer> 
         </div>       
     </body>

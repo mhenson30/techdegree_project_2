@@ -8,11 +8,11 @@ img{
     
     width: 100%;
 }
-.profile img{
+#profile img{
     width: 90%;
     
 }
-.profile{
+#profile{
     
     text-align: center;
 }
@@ -121,7 +121,7 @@ footer span.large{
     }
     
     
-    header .profile img{
+    header #profile img{
         float: right;
         width: 39%;
         padding-bottom: 15px;
