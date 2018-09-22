@@ -9,7 +9,7 @@ img{
     width: 100%;
 }
 #profile img{
-    width: 90%;
+    width: 80%;
     
 }
 #profile{
@@ -32,21 +32,24 @@ img{
 
 .innerwrap{
 	background-color: #ffffff;
-	width: 100%;
+	width: 95%;
 	margin: 0 auto;
 	display: block;
 
 }
-nav{
-    width: 94%;
-}
 
-nav ul li{
+li{
  list-style-type: none;
     font-weight: 700;
     padding: 5px 0px;
     margin: 5px 0px;
-    background-color: #FFFFFF; 
+}
+nav ul li{
+    background-color: #FFFFFF;
+}
+nav ul{
+    width: 75%;
+    padding-left: 12.5%;
 }
 
 nav a{
@@ -56,7 +59,7 @@ nav a{
 }
 
 h1{
-    
+    display: block;
     padding-top: 10px;
 }
 
@@ -83,12 +86,25 @@ footer p{
 footer a{
     text-transform: uppercase;
     color: black;
+    font-family: 'Khula', sans-serif;
+    display: inline;
+    font-weight: 700;
+    font-size: .9em;
+}
+div.mobile{
     float: right;
+    display: inline-block;
+    padding-top: 20px;;
 }
 
-footer span.large{
+footer div.large{
     display:none;
+
 }
+a{
+    text-decoration: none;
+}
+
 /*media queries*/
 
 
@@ -101,16 +117,16 @@ footer span.large{
         clear:both;
         
     }
-  footer span.mobile{
+  footer div.mobile{
     display:none;
 }
-    footer span.large{
+    footer div.large{
     display: inline-block;
         float:right;
     }
     
     
-    span.large a{
+    div.large a{
         text-decoration: none;
     }
     
@@ -153,6 +169,9 @@ footer span.large{
     nav.main{
         text-align: center;
     }
+    a{
+        text-decoration: none;
+    }
     
     
     
@@ -167,10 +186,10 @@ footer span.large{
         
     }
     
-   footer span.mobile{
+   footer div.mobile{
     display:none;
 }
-    footer span.large{
+    footer div.large{
     display: inline-block;
 }
     .one, .two{
@@ -187,13 +206,11 @@ footer span.large{
         float: left;
         margin: 0 5px;
     }
-}
 
 h1{
     float: left;
     display: inline-block;
-    padding: 0;
-    margin-left: 10px;
+    padding-left: 15px;
 }
 
 nav{
@@ -201,4 +218,6 @@ nav{
     display: inline-block;
     float: right;
     margin: 10px 0px;
+}
+    
 }
